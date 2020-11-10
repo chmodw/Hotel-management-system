@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Front Desk | Reservations</title>
     <?php include_once("header.php"); ?>
-    <link href="../Front_Desk/styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="../front_desk/styles/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body id="reservations">
 <article>
