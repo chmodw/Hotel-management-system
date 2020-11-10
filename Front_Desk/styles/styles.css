@@ -1,0 +1,1011 @@
+/*limited css reset*/
+
+html,
+body,
+div,
+section,
+article,
+aside,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+time,
+span,
+em,
+strong,
+img,
+ol,
+ul,
+li,
+figure,
+canvas,
+video,
+th,
+td,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+
+/*------------------------------------ Public Styles---------------------------------- */
+
+html {
+    background-color: ghostwhite;
+    height: 100%;
+    background-image: url("../img/topography.png");
+    /*background-image: url("../img/white-background.jpg");*/
+}
+
+body {
+    width: 960px;
+    min-height: 100%;
+    margin: auto auto;
+    background: white;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);
+    /*font-size: 14px;*/
+    /*overflow: scroll;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table tr:hover {
+    background: rgba(0, 0, 0, .1);
+}
+
+#warning {
+    clear: both;
+    color: red;
+    size: 18px;
+    margin: 5px;
+    float: left;
+}
+
+input:hover {
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .1);
+}
+
+textarea:hover {
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .1);
+}
+
+select:hover {
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .1);
+}
+
+
+/*Page Footer*/
+
+footer {
+    width: 960px;
+    padding: 50px 0px 10px;
+    clear: both;
+}
+
+footer div {
+    text-align: center;
+    color: rgb(130, 134, 135);
+}
+
+#hide {
+    display: none;
+}
+
+
+/*Main Navigation*/
+
+#logo {
+    float: left;
+    padding: 10px 0 5px 10px;
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+#mainNav ul li {
+    margin: auto;
+    padding: 10px;
+    float: right;
+    display: block;
+    font-size: 20px;
+    background: rgb(130, 134, 135);
+}
+
+#mainNav a {
+    color: white;
+}
+
+#mainNav li:hover {
+    background: lightslategrey;
+    cursor: pointer;
+}
+
+
+/*******************************Login Page*******************************************/
+
+#loginForm input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#loginForm label {
+    font-size: 18px;
+    color: white;
+}
+
+#loginForm {
+    padding: 100px 50px;
+    background: rgba(0, 0, 0, .5);
+    float: right;
+    height: 300px;
+    /*display: inline-block;*/
+}
+
+#login article div {
+    height: 500px;
+    background-image: url("../img/Beach.jpg");
+}
+
+#login {
+    width: 1000px;
+    /*background:rgba(255, 255, 255, .0);*/
+    /*margin-top:50px;
+    margin-bottom: 200px;*/
+}
+
+#loginForm input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    float: right;
+}
+
+#loginForm input:hover {
+    box-shadow: 1px 1px 6px 2px rgba(255, 255, 255, .3);
+}
+
+#login header p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0;
+    color: grey;
+    font-family: Lucida Calligraphy;
+}
+
+#message {
+    color: red;
+    clear: both;
+    /*border: 1px solid white;*/
+    max-width: 230px;
+    background: rgba(225, 225, 225, .8);
+    min-width: 230px;
+    padding: 10px;
+}
+
+
+/*******************************Todo Page********************************************/
+
+#left {
+    clear: both;
+    border-right: 1px solid grey;
+    float: left;
+    display: block;
+    width: 30%;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 460px;
+    margin-top: 50px;
+}
+
+#todo table {
+    float: right;
+    width: 60%;
+    display: block;
+    margin: 15px;
+    margin-top: 50px;
+    display: block;
+    overflow: scroll;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+#todo table th {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+}
+
+#action {
+    width: 395px;
+}
+
+#todo table td {
+    border-bottom: 1px solid grey;
+    width: 30px;
+    padding: 5px;
+}
+
+#left h1 {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+#left form input,
+textarea {
+    margin: 20px 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#left form input[type="date"],
+input[type="time"] {
+    width: 210px;
+}
+
+#left form input[type="submit"] {
+    float: right;
+}
+
+#left form textarea {
+    min-width: 250px;
+    min-height: 150px;
+    max-width: 250px;
+    max-height: 150px;
+}
+
+
+/********************************reservations****************************/
+
+#reservationNav {
+    float: left;
+    display: block;
+    clear: both;
+    margin: 50px 20px;
+    width: 200px;
+    height: 400px;
+    border-right: 1px solid grey;
+}
+
+#reservationNav li {
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+}
+
+#reservationNav li:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#reservationForm {
+    /*box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);*/
+    padding: 10px;
+    width: 685px;
+    margin: 50px 10px 50px 0;
+    float: right;
+    display: block;
+}
+
+#reservationForm input[type="text"],
+input[type="date"],
+select {
+    width: 150px;
+}
+
+#reservationForm input,
+select,
+textarea {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+#reservationForm textarea {
+    min-width: 650PX;
+    max-width: 650PX;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+#reservationForm input[name="firstName"] {
+    width: 300px;
+}
+
+#reservationForm input[name="lastName"] {
+    width: 300px;
+}
+
+#reservationForm input[value="Reserve"],
+input[value="Update"] {
+    margin-left: 620px;
+}
+
+#currentReservations {
+    float: right;
+    width: 705px;
+    display: block;
+    height: 400px;
+    margin: 50px 5px;
+    margin-right: 5px;
+    overflow: scroll;
+    height: 500px;
+}
+
+#currentReservationTable {
+    /* height: 400px;*/
+}
+
+#currentReservationTable th {
+    text-align: left;
+    font-size: 17px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+
+#currentReservationTable td {
+    padding: 5px;
+}
+
+.editReservation {
+    color: green;
+}
+
+#upcomingReservations {
+    float: right;
+    width: 705px;
+    display: block;
+    height: 400px;
+    margin: 50px 5px;
+    margin-right: 5px;
+    overflow: scroll;
+    height: 500px;
+}
+
+#upcomingReservationTable {
+    /* height: 400px;*/
+}
+
+#upcomingReservationTable th {
+    text-align: left;
+    font-size: 17px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+
+#upcomingReservationTable td {
+    padding: 5px;
+}
+
+.editReservation {
+    color: green;
+}
+
+
+/******************************Status Page******************************************/
+
+#status h1 {
+    clear: both;
+    margin: 20px;
+    width: 610px;
+    padding-top: 40px;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    color: grey;
+}
+
+#roomOverviewTable {
+    margin-left: 25px;
+    float: left;
+    width: 350px;
+    margin-bottom: 200px;
+    padding: 5px;
+}
+
+#status table td {
+    height: 40px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+#guestOverviewTable {
+    margin-left: 10px;
+    width: 245px;
+    float: left;
+    padding: 5px;
+}
+
+#toDoOverviewTable {
+    margin-right: 20px;
+    float: right;
+    width: 295px;
+    /*display: block;*/
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);
+    padding: 5px;
+}
+
+#toDoOverviewTable th {
+    text-align: left;
+    background: gray;
+    color: white;
+}
+
+#toDoOverviewTable tr {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
+/*toDoOverviewTable tr:nth-child(odd){
+    background: grey;
+    color: white;
+    
+}*/
+
+
+/************************Guests Page*************************************/
+
+#guest h1 {
+    clear: both;
+    margin: 20px;
+    width: 900px;
+    padding-top: 40px;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    color: grey;
+}
+
+#guestLinks {
+    float: left;
+    margin: 0px 20px 100px;
+    width: 200px;
+    height: 400px;
+    display: block;
+    border-right: 1px solid grey;
+}
+
+#guestLinks li {
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+}
+
+#guestLinks li:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#guestTable {
+    width: 700px;
+    margin: auto;
+    float: left;
+    display: block;
+    overflow-x: scroll;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+#guestTable .name {
+    width: 260px;
+}
+
+#guestTable .room {
+    width: 100px;
+}
+
+#guestTable .in {
+    width: 120px;
+}
+
+#guestTable .out {
+    width: 120px;
+}
+
+#guestTable .outLink {
+    width: 50px;
+}
+
+#guestTable th {
+    height: 40px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#guestTable td {
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+
+#archivedGuestTable {
+    width: 700px;
+    margin: auto;
+    float: left;
+    display: block;
+    overflow-x: scroll;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+#archivedGuestTable .name {
+    width: 300px;
+}
+
+#archivedGuestTable .room {
+    width: 100px;
+}
+
+#archivedGuestTable .in {
+    width: 120px;
+}
+
+#archivedGuestTable .out {
+    width: 120px;
+}
+
+#archivedGuestTable th {
+    height: 40px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#archivedGuestTable td {
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.checkout {
+    color: red;
+}
+
+
+/******************************Admin Page***************************************/
+
+#adminNav {
+    clear: both;
+    margin: 75px 20px;
+    width: 200px;
+    height: 400px;
+    border-right: 1px solid grey;
+    float: left;
+    display: block;
+}
+
+#adminNav li {
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+}
+
+#adminNav li:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#adminSide {
+    float: right;
+    display: block;
+    /*border: 1px black solid;*/
+    width: 70%;
+    height: 400px;
+    /*margin: 75px 20px 20px;*/
+    height: 400px;
+}
+
+#adminSide table {
+    float: right;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: block;
+}
+
+#adminSide table th {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+
+#adminSide table td {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+
+#viewUser {
+    float: right;
+    display: block;
+    /*border: 1px black solid;*/
+    width: 70%;
+    height: 400px;
+    margin: 75px 20px;
+    height: 400px;
+}
+
+#viewUser table {
+    float: right;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: block;
+}
+
+#viewUser table th {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+
+#viewUser table td {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+
+#newUser {
+    width: 70%;
+    /*border: 1px solid black;*/
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+}
+
+#reports{
+    width: 70%;
+    border: 1px solid black;
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+}
+
+#customerMessages{
+
+    width: 70%;
+
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+
+}
+
+#lastMonth table{
+    border: 3px solid gray;
+    margin: 50px;
+}
+#customerMessages table {
+    float: right;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: block;
+}
+
+#customerMessages table th {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+
+#customerMessages table td {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+
+#newUser form {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#newUser form input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#newUser form input[type="submit"] {
+    height: 25px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#newUser label {
+    margin-top: 10px;
+}
+
+#newUser form input:hover {
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .1);
+}
+
+#editRoom {
+    width: 70%;
+    /*border: 1px solid black;*/
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+    /*background:yellow;*/
+}
+
+#newRoom {
+    width: 70%;
+    /*border: 1px solid black;*/
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+}
+
+#newRoom form {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#newRoom form input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#newRoom form select {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#newRoom form textarea {
+    max-width: 280px;
+    min-width: 280px;
+    max-height: 75px;
+    min-height: 75px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#newRoom form input[type="submit"] {
+    height: 25px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#editRoom table {
+
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: block;
+}
+
+.reportTable{
+    margin: 50px 30px;
+    width:900px;
+
+}
+.reportTable th {
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.reportTable td {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    /*text-align: center;*/
+}
+
+#reports {
+    width: 70%;
+    /*border: 1px solid gray;*/
+    /*padding-left: 40px;*/
+    float: right;
+    display: block;
+    margin: 75px 20px;
+    height: 400px;
+}
+
+#reports input[type=text]{
+    width: 200px;
+}
+
+#reports a{
+    background: tan;
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px;
+}
+/***************************************
+
+.reportTable table th {
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    padding: 2px;
+    background: gray;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+#editRoom table td {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+#editRoom .details {
+    width: 250px;
+}
+
+
+/*======================================================check out=======================================================================*/
+
+#payment {
+    clear: both;
+    margin: 20px;
+    /*border: 1px solid black;*/
+    padding: 30px 20px 20px 20px;
+    width: 290px;
+    margin: 0px 0 20px 330px;
+}
+
+#payment input {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+#payment select {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#payment textarea {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+#paymentProcess {
+    clear: both;
+    /*border: 1px solid black;*/
+    width: 550px;
+    padding: 5px;
+    clear: both;
+    min-height: 400px;
+    margin: 100px 0 25px 200px;
+    padding-top: 75px;
+}
+
+#paymentProcess input {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+#paymentProcess select {
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+#paymentProcess textarea {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 75px;
+    max-height: 75px;
+    margin-top: 3px;
+}
+
+#paymentProcess input[type="submit"] {
+    clear: both;
+    float: right;
+}
+
+#formleft {
+    float: left;
+}
+
+#formright {
+    float: right;
+}
+
+#fullName {}
+
+#chekinDate {}
+
+#checkoutDate {}
+
+#room {}
+
+#address {
+    clear: both;
+}
+
+#costs {}
+
+#paymentType {}
+
+#total {}

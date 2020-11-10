@@ -1,0 +1,271 @@
+    /*limited css reset*/
+    
+    html,
+    body,
+    div,
+    section,
+    article,
+    aside,
+    header,
+    footer,
+    nav,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    address,
+    time,
+    span,
+    em,
+    strong,
+    img,
+    ol,
+    ul,
+    li,
+    figure,
+    canvas,
+    video,
+    th,
+    td,
+    tr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+    }
+    /*------------------------------------ Public Styles---------------------------------- */
+    
+    html {
+        background-color: ghostwhite;
+        height: 100%;
+    }
+    
+    body {
+        width: 960px;
+        margin: auto auto;
+        background: white;
+        /*height: 100%;*/
+        border-radius: 3px;
+        border: 0;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);
+        /*overflow: scroll;*/
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /*Page Footer*/
+    
+    footer {
+        padding-top: 120px;
+        padding-bottom: 10px;
+    }
+    
+    footer div {
+        text-align: center;
+        color: slategrey;
+    }
+    /*Main Navigation*/
+    
+    #logo {
+        float: left;
+        padding: 5px;
+        margin: auto;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: slategrey;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    #mainNav ul li {
+        margin: auto;
+        padding: 10px;
+        float: right;
+        font-size: 20px;
+    }
+    
+    #mainNav a {
+        color: slategrey;
+    }
+    
+    #mainNav a:hover {
+        color: darkslategray;
+    }
+    /******************************reservations Page******************************/
+    
+    #mainimg {
+        clear: both;
+    }
+    
+    #userForm {
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 675px;
+        padding: 5px 5px 5px 10px;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, .1);
+    }
+    
+    #userForm input,
+    select {
+        margin: 10px 5px;
+        border: 1px solid grey;
+        border-radius: 2px;
+    }
+    
+    #userForm input[type="text"] {
+        height: 15px;
+        padding: 5px;
+        width: 200px;
+        /*        display: block;*/
+    }
+    
+    #userForm input[name="firstName"],
+    #userForm input[name="lastName"] {
+        width: 313px;
+    }
+    
+    #userForm select[name="idType"] {
+        width: 150px;
+        height: 30px;
+    }
+    
+    #userForm input[type="date"] {
+        height: 20px;
+        padding: 5px;
+    }
+    
+    #userForm textArea {
+        width: 660px;
+    }
+    /*********************Front-desk Login********************************************/
+    
+    #login h2 {
+        font-size: 20px;
+        margin: 50px 10px 0;
+        text-align: center;
+        color: grey;
+        border-bottom: 1px solid #ccc;
+        clear: both;
+    }
+    
+    #login form {
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding: 0 auto;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, .1);
+        clear: both;
+    }
+    
+    #login input {
+        width: 250px;
+        margin-top: 15px;
+        padding: 5px;
+    }
+    
+    #login form div {
+        margin: auto;
+        padding: 75px 10px 20px 20px;
+        border: 1px solid black;
+    }
+    /*#login input [type="submit"]{
+    background: gray;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 3px;
+   margin-left: 10px; 
+}*/
+
+    #homeP{
+
+        text-align: center;
+        padding: 50px 100px 0;
+        color: gray;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #mkre a{
+        background: gray;
+        color: white;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 600px;
+    }
+
+    #mkre{
+        padding: 0 372px 0;
+    }
+
+    #mkre a:hover{
+        background: white;
+        color: gray;
+    }
+
+    #contact{
+        background: gray;
+    }
+
+    #contact form{
+        float: right;
+        margin-right: 20px;
+
+
+    }
+    #contact p{
+        font-size: 20px;
+
+    }
+    #contact form input,textarea{
+
+        width: 500px;
+        margin-top:10px;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid grey;
+
+    }
+
+    #contact form textarea{
+
+        max-width: 500px;
+        min-width: 500px;
+        max-height: 200px;
+        min-height: 200px;
+
+    }
+    #contact form input[type="submit"]{
+        width: 100px;
+        float: right;
+        margin-bottom: 10px;
+    }
+
+    #aboutP{
+        float: left;
+        color: white;
+        width:400px;
+        height: 387px;
+        padding: 10px;
+        background: white;
+
+    }
+
+    #aboutP p{
+        color: gray;
+
+        margin: 10px;
+    }
